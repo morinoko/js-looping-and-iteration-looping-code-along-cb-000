@@ -8,13 +8,17 @@ function printBadges(employees) {
 }
 
 function tailsNeverFails() {
-  function tailsFlip() {
-    return Math.random() >= 0.5;
+  function flipCoin() {
+    if (Math.random() >= 0.5) {
+      return "Tails";
+    } else {
+      return "Heads";
+    }
   }
 
   let tailsFlips = 0;
 
-  while ( tailsFlip() ) {
+  while ( flipCoin() == 'Heads' ) {
     tailsFlip++;
   }
 
