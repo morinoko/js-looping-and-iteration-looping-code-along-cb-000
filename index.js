@@ -13,7 +13,7 @@ function tailsNeverFails() {
   }
 
   let tailsFlips = 0;
-  
+
   while ( tailsFlip() ) {
     tailsFlip++;
   }
