@@ -22,5 +22,5 @@ function tailsNeverFails() {
     tailsFlip++;
   }
 
-  return `You got #{tailsFlips} tails in a row!`;
+  return `You got ${tailsFlips} tails in a row!`;
 }
