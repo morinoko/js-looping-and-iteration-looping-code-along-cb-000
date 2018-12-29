@@ -18,7 +18,7 @@ function tailsNeverFails() {
 
   let tailsFlips = 0;
 
-  while ( flipCoin() == 'Heads' ) {
+  while ( flipCoin() == 'Tails' ) {
     tailsFlips++;
   }
 
