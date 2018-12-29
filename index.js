@@ -7,15 +7,15 @@ function printBadges(employees) {
   return employees;
 }
 
-function tailsNeverFails() {
-  function flipCoin() {
-    if (Math.random() >= 0.5) {
-      return "Tails";
-    } else {
-      return "Heads";
-    }
+function flipCoin() {
+  if (Math.random() >= 0.5) {
+    return "Tails";
+  } else {
+    return "Heads";
   }
+}
 
+function tailsNeverFails() {
   let tailsFlips = 0;
 
   while ( flipCoin() == 'Tails' ) {
