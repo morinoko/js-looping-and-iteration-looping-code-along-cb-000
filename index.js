@@ -19,7 +19,7 @@ function tailsNeverFails() {
   let tailsFlips = 0;
 
   while ( flipCoin() == 'Tails' ) {
-    tailsFlip++;
+    tailsFlips++;
   }
 
   return `You got ${tailsFlips} tails in a row!`;
